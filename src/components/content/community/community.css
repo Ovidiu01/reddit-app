@@ -1,0 +1,61 @@
+.community-section {
+    background-color: white;
+    border-radius: var(--border-radius);
+    border: 1px solid rgb(200, 200, 200);
+  }
+  
+  .community-section .title {
+    position: relative;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    height: 5rem;
+    background-color: black;
+  }
+  
+  .community-section .title > span {
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .community-section .communities-wrapper .community {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    border-top: 1px solid rgb(240, 240, 240);
+  }
+  
+  .community-section .communities-wrapper .community svg {
+    color: rgb(0, 180, 0);
+  }
+  
+  .community-section .communities-wrapper .community img {
+    max-width: 2rem;
+    min-width: 2rem;
+    max-height: 2rem;
+    min-height: 2rem;
+    border-radius: 50%;
+  }
+  
+  .community-section .communities-wrapper .community .name {
+    font-weight: 600;
+  }
+  
+  .community-section .action-buttons {
+      text-align: center;
+      margin: 0.5rem;
+  }
+  
+  .community-section .action-buttons > .primary-button {
+      margin-top: 1rem;
+  }
+  
+  .community-section .action-buttons .secondary-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 1rem 0;
+  }

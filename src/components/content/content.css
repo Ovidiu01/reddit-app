@@ -1,0 +1,18 @@
+.content {
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.bars-wrapper {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.popular-posts-title {
+    font-weight: 600;
+  }
+
+.bars-wrapper .inside {
+    display: flex;
+}
